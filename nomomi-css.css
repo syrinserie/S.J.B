@@ -1,0 +1,27 @@
+.title {
+    color: blue;
+    font-size: 4em;
+}
+
+.main {
+color: black;
+}
+
+.youtube {
+color: red;
+}
+
+.namuwiki {
+color: green;
+}
+li {
+list-style-type: square;
+}
+footer{
+color: gray;
+font-size: 1em;
+}
+
+nav a:hover{
+color: blue;
+}
