@@ -1,8 +1,54 @@
-.title {
-    color: blue;
-    font-size: 4em;
+@media(min-width: 3em){
+background-color: white;
 }
+body{
+font: 1em/150% Helvetica, Arial, sans-serif;
+background-color: pink;
+}
+.title{
+    background-color: white;
+    width: auto;
+    border: black;
+    border-style: ridge;
+    outline: ;
+    box-shadow:10px 10px black;
+    border-radius: 1rem;
+    color: black;
+    font-size: 2em;
+    margin: 5em;
+    padding: 1em;
+    outline-offset: 0,5rem;
+    outline: 1em black;
+}
+nav a{
 
+    padding: 3px;
+    border: solid 0.1rem;
+    border-radius: 50%;
+}
+nav li{
+    margin: 1rem;
+}
+nav{
+    margin: 2rem;
+    padding:2rem;   
+    border-radius: 1rem;
+    border: 0.2rem black;
+    border-style: solid;
+    box-shadow:10px 10px black;
+
+    background-color: white;
+}
+main{
+    margin: 2rem;
+    padding:2rem;
+    border-radius: 1rem;
+    border: 0.2rem black;
+    border-style: solid;
+    box-shadow:10px 10px black;
+    background-color: white;
+}
+}
 .main {
 color: black;
 }
@@ -18,7 +64,10 @@ li {
 list-style-type: square;
 }
 footer{
-color: gray;
+background-color:black;
+margin:10%;
+padding:1px;
+color: white;
 font-size: 1em;
 }
 
